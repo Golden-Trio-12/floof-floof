@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" datatoggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Rolling Hills</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li class="links"><a href="#welcome">About</a></li>
+                <li class="links"><a href="#news">School News</a></li>
+                <li class="links"><a href="#achievments">School Achievments</a></li>
+                <li class="links"><a href="#clubs">Extra Activities</a></li>
+                <li class="links"><a href="#teacher">Teachers</a></li>
+                <li class="links"><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="welcome">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+        </marquee>
+    </div>
+
+    <iframe width="1440" height="560" src="https://www.youtube.com/embed/C-4Zfnh75E4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+        <div class="page-header" id="news">
+            <h2 class="text-capitalize">School News</h2>
+
+            <div class="row">
+
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/cusd_featured_image/public/img_3876_8.jpg?itok=IIESECn4&c=cf63d4dac431af2c6288d4d57b55a95b">
+
+                    <h4 class="text-capitalize"><kbd>School Reopening!</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">School opens 19th August 2021.</h5>
+                    <p class="text-muted text-left">We plan on reopening for in-person school with some restrictions to ensure student safety.</p>
+                </div>
+
+                <div class="travel_mainDiv">
+                    <img class="" src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/panopoly_image_original/public/rhmslogopodcastlg.jpg?itok=3S8gBgoI">
+                    <h4 class="text-capitalize"><kbd>New Teachers!</kbd></h4>
+                    <hr>
+
+                    <h5 class="text-success text-left text-capitalize">New Staff joins 19th August.</h5>
+                    <p class="text-muted text-left">We have new teachers and staff joining our school starting the first day of school.
+
+
+                    </p>
+
+                </div>
+
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/cusd_featured_image/public/centennial-08122021.jpg?itok=s_RKCZBW">
+                    <h4 class="text-capitalize"><kbd>100 years of education!</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">100 years of Campbell Union School District</h5>
+                    <p class="text-muted text-left">The Campbell Union School District was founded in 1921 and has been there for 100 years.</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievments">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            School Award <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://mlane.campbellusd.org/sites/mlane/files/styles/cusd_featured_image/public/distinguished-schools-2018.jpg?itok=HDpa2KyK" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">California Distinguished school award
+                </h5>
+                <p>Marshall Lane won the California Distinguished School Award.</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Rating<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+
+                <img src="https://i.pinimg.com/736x/4e/1f/93/4e1f9365bc2068f76d6f835646ac5a25.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">ranks 96.5% better than most california public schools.
+                </h5>
+                <p>According to polls, Marshall Lane Elementry School ranks 96.5% better than most public schools in California.</p>
+            </div>
+        </div>
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Academic Overview<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://images.classmates.com/pho223/x/W/G/x/140833695_display.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-left text-success text-capitalize">Academics place marshall lane above and beyond
+                </h5>
+                <p>As polls also show, Marshall Lane's academics are above the average for the state placing it at 964 of 5,919 best public elementry schools in California.</p>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="clubs">
+                <h2 class="text-capitalize ">Extra Activities</h2>
+            </div>
+
+            <ul class="list-group">
+                <li class="list-group-item-success  col-lg-12 col-md-12 col-sm-12 col-xs-12 clubs_li">
+                    <h4>School Clubs</h4>
+                    <img src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/directory_thumbnail/public/images_0.jpg?itok=c9NhpbxL" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                    <!--Add bootstrap class  col-lg-7 col-md-7 col-sm-7 col-xs-12-->
+                    <p class="list-group-item-text">Clubs provide students an opportunity to develop their interests alongside peers and teachers. These student-based organizations generally meet during after school hours, though some also convene during our lunch period. With a nominal fee that may be waived, clubs vary from year to year,(info from rhms webpage). Clubs include: art, illustration, cooking, badminton, CIA, Frisbee, Gaming, Ping Pong, Pickleball, and more. </p>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="teacher">
+                <h2 class="text-capitalize ">Our Teachers</h2>
+            </div>
+
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+                <img src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/directory_thumbnail/public/pictures/vanderbosch.jpg?itok=GFhC9Au3" class="img-responsive">
+                <hr>
+                <p class="text-primary">Mrs. Vanderbosch</p>
+            </div>
+
+            <!-- Modal -->
+            <!-- Give bootstrap class modal fade-->
+            <div class="" id="teacher1">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <!--Give the close button- &times;-->
+                            <button type="button" class="close" data-dismiss="modal"></button>
+                            <h4 class="modal-title">Amy Vanderbosch</h4>
+                        </div>
+
+                        <div class="modal-body">
+                            <img src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/directory_thumbnail/public/pictures/vanderbosch.jpg?itok=GFhC9Au3" class="img-responsive img_modal">
+                            <p class="p_modal">Assistant Principal and Teacher at RHMS.<br>
+                                <a href="https://www.campbellusd.org/staffprofile?emp=avanderbosch"><b>To Know More</b></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#teacher2">
+                <img src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/directory_thumbnail/public/pictures/garcia_jill327.jpg?itok=JwXA5HFr" class="img-responsive">
+                <hr>
+                <p class="text-primary">Mrs. Garcia</p>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="teacher2">
+                <!-- Give bootstrap class modal-dialog-->
+                <div class="modal-header">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Jill Garcia</h4>
+                        </div>
+                        <!-- Give bootstrap class modal-body-->
+                        <div class="">
+                            <img src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/directory_thumbnail/public/pictures/garcia_jill327.jpg?itok=JwXA5HFr" class="img-responsive img_modal">
+                            <p class="p_modal">Math Teacher for 7th grade.<br>
+                                <a href="https://rollinghills.campbellusd.org/users/jgarcia"><b>To Know More</b></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#teacher3">
+                <img src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/panopoly_image_quarter/public/pictures/cusdphoto-1197.jpg?itok=x939LwGr" class="img-responsive">
+                <hr>
+                <p class="text-primary">Ms. Beddo</p>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="teacher3">
+                <!-- Give bootstrap class modal-dialog-->
+                <div class="modal-header">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Michelle Beddo</h4>
+                        </div>
+                        <!-- Give bootstrap class modal-body-->
+                        <div class="">
+                            <img src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/panopoly_image_quarter/public/pictures/cusdphoto-1197.jpg?itok=x939LwGr" class="img-responsive img_modal">
+                            <p class="p_modal">Teacher for 20+ years, (equity toSA)<br>
+                                <a href="https://rollinghills.campbellusd.org/users/michelle-beddo"><b>To Know More</b></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
+            <h2 class="text capitalize">Contact Us</h2>
+        </div>
+
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.2173261725798!2d-121.986281981206!3d37.26627330094971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e356471ed0fd5%3A0xc8e4023ba61e3294!2sRolling%20Hills%20Middle%20School!5e0!3m2!1sen!2sus!4v1628129908112!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="details">
+            <img src="https://rollinghills.campbellusd.org/sites/rollinghills/files/styles/directory_thumbnail/public/pictures/download.jpg?itok=LvwD8fit" class=img-responsive img circle col-lg-3 col-md-3 col-sm-3 col-xs-4>
+        </div>
+        <h3>Principal Name: </h3>
+        <h4>Mr. Ted Cribari</h4>
+        <div class="contact_1">
+            <a href="mailto:school@gmail.com?Subject=Hi">
+                <h5><i class="fa fa envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+                <h5><i class="fa fa phone-square"></i>&nbsp;&nbsp;###-###-####</h5>
+            </a>
+            <div id="footer"></div>
+        </div>
+    </div>
+</body></html>
